@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types';
 
 const Statistics = ({ options, total, positivePercentage }) => {
-  console.log(options);
   return (
     <>
       {Object.keys(options).map(el => {
